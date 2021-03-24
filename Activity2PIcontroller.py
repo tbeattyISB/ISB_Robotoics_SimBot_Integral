@@ -1,4 +1,4 @@
-from RobotHW import MainRun
+from Robot import MainRun
 
 # In this problem you will need too create a PROPORTIONAL CONTROLLER for your robot.
 # Steps:  - Create a proportional controller
@@ -15,7 +15,7 @@ def go(bot):
 MainRun(go)
 
 
-# How  does changing your kp (gain) affect:
+# How  does changing your ki (integral constant) affect:
 #   1. speed,
 #   2. overshoot and
 #   3. stability

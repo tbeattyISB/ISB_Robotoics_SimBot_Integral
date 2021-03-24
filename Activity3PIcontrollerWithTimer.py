@@ -1,7 +1,6 @@
 from RobotHW import MainRun
 
-# Copy your code from activity2 here
-# Copy your code from Activity2, you may need to adjust your kp (gain).
+# Copy your code from Activity2, you may need to adjust your kp and ki.
 # Within your while loop add conditional statements that change the desired time IF(bot.runTime()>...)
 # At the end, remove the payload and see how your robot preforms.
 #
@@ -18,7 +17,7 @@ def go(bot):
 
 MainRun(go)
 
-# 1. What cnnection (familiarity) do you have to a proportional controller?
+# 1. What cnnection (familiarity) do you have to a integral controller?
 # 2. How has it extended your thinking?
-# 3. What question do you have about proportional controllers?
+# 3. What question do you have about integral controllers?
 # Answer below (as comment):

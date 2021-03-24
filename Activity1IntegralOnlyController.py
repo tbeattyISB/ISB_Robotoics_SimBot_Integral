@@ -4,6 +4,7 @@ from Robot import MainRun
 
 
 def go(bot):
+    bot.setPayload(0)
     desired = 300
     kp = 10
     while True: #Edit this so that it stops at 300
